@@ -1,13 +1,144 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Document</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.9.4/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  
+
+
+
+  <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+    <div class="flex items-center flex-shrink-0 text-white mr-6">
+      <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" /></svg>
+      <span class="font-semibold text-xl tracking-tight">Valle Hermoso Properties</span>
+    </div>
+    <div id="button" class="block lg:hidden">
+      <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+        <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <title>Menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+        </svg>
+      </button>
+    </div>
+    <div id="menu" class="w-full block flex-grow lg:flex lg:items-center lg:w-auto hidden">
+      <div class="text-sm lg:flex-grow">
+        <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+          Docs
+        </a>
+        <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+          Examples
+        </a>
+        <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+          Blog
+        </a>
+      </div>
+      <div>
+        <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0 transition ease-in duration-700">Download</a>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container mx-auto m-10">
+    <h1 class="font-bold text-center py-7 text-5xl text-gray-700">Valle Hermoso</h1>
+    <div class="flex justify-center">
+      <button class="bg-orange-500 sm:bg-blue-500 lg:bg-green-500 hover:bg-orange-400 sm:hover:bg-blue-400 lg:hover:bg-green-400 text-white font-bold py-2 px-4 rounded">Hola</button>
+    </div>
+    <div class="border mt-10 p-5 pr-7">
+      <p class="text-base text-sm text-right">lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem</p>
+      <p class="bg-pink-500">Color</p>
+      <p class="uppercase">Mayusculas</p>
+      <p class="rounded-full bg-red-500 text-center text-white font-bold">Hi</p>
+      <p class="w-48 mt-2 shadow-md rounded-full bg-green-500 text-center text-white font-bold">Sombra</p>
+    </div>
+  </div>
+  
+  <div class="m-10">
+    <div class="max-w-sm shadow-lg rounded">
+      <div>
+        <img class="rounded-t" src="https://tailwindcss.com/img/card-top.jpg" alt="Portada" />
+      </div>
+      <div class="p-6 text-gray-700">
+        <h2 class="text-xl font-bold pb-2">The Coldest Sunset</h2>
+        <p class="text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+      </div>
+      <div class="pl-5 pb-4">
+        <p class="inline-block text-sm text-gray-700 bg-gray-200 font-bold py-1 px-3 mr-2 mb-2 rounded-full">#photography</p>
+        <p class="inline-block text-sm text-gray-700 bg-gray-200 font-bold py-1 px-3 mr-2 mb-2 rounded-full">#travel</p>
+        <p class="inline-block text-sm text-gray-700 bg-gray-200 font-bold py-1 px-3 mr-2 mb-2 rounded-full">#winter</p>
+      </div>
+    </div>
+  
+    <div class="m-10"></div>
+  
+    <div class="max-w-sm rounded overflow-hidden shadow-lg">
+      <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
+      <div class="px-6 pt-4 pb-2">
+        <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+        <p class="text-gray-700 text-base">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+        </p>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container mx-auto text-center my-5">
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 my-10">
+      <div class="bg-red-700">A</div>
+      <div class="bg-red-700">B</div>
+      <div class="bg-red-700">C</div>
+      <div class="bg-red-700">D</div>
+    </div>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 my-10">
+      <div class="bg-blue-700">A</div>
+      <div class="bg-blue-700">B</div>
+      <div class="bg-blue-700">C</div>
+      <div class="bg-blue-700">D</div>
+    </div>
+    <div class="grid grid-cols-4 gap-4 my10">
+      <div class="bg-green-700 col-span-2">A</div>
+      <div class="bg-green-700">B</div>
+      <div class="bg-green-700">C</div>
+      <div class="bg-green-700 col-span-4">D</div>
+    </div>
+    <div class="grid grid-cols-4 gap-4 my-10">
+      <div class="bg-orange-500 col-start-2">A</div>
+      <div class="bg-orange-500">B</div>
+      <div class="bg-orange-500 col-end-3">C</div>
+      <div class="bg-orange-500">D</div>
+    </div>
+    <div class="grid grid-rows-4 gap-4 my-10">
+      <div class="bg-pink-700 row-span-2">A</div>
+      <div class="bg-pink-700">B</div>
+      <div class="bg-pink-700">C</div>
+      <div class="bg-pink-700">D</div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-4 gap-4 my-10">
+      <div class="bg-yellow-500">A</div>
+      <div class="bg-yellow-500">B</div>
+      <div class="bg-yellow-500 col-span-1 sm:col-span-2 sm:row-span-2">E</div>
+      <div class="bg-yellow-500">C</div>
+      <div class="bg-yellow-500">D</div>
+    </div>
+  </div>
+  
+  <div class="container mx-auto text-center bg-gray-500">
+    <div class="flex flex-wrap justify-center">
+      <div class="bg-yellow-500 p-4 m-2">A</div>
+      <div class="flex-1 bg-yellow-500 p-4 m-2">B</div>
+      <div class="flex-1 bg-yellow-500 p-4 m-2">Hello World</div>
+      <div class="bg-yellow-500 p-4 m-2">D</div>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
